@@ -22,6 +22,7 @@ def render_page2():
 def render_page3():
   return render_template('Page3.html')
 
+<<<<<<< HEAD
 @app.route("/r1")
 def render_response1():
     return
@@ -34,5 +35,10 @@ def render_response2():
 def render_response3():
     return
 
+=======
+@app.route("/")
+def render_res1():
+    return render_template('Response1.html')
+>>>>>>> 3a3773f180ac246ed2bd20521f657ef6a5613365
 if __name__=="__main__":
     app.run(debug=False, port=54321)
